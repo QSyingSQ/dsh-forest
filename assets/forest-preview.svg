@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <rect width="640" height="220" rx="16" fill="#eef2ee"/>
+  <text x="24" y="44" font-family="sans-serif" font-size="22" font-weight="bold" fill="#0b3d2e">Typora Forest — Light</text>
+  <rect x="24" y="60" width="280" height="120" rx="10" fill="#ffffff" stroke="#0d2a1f1a"/>
+  <rect x="36" y="76" width="120" height="16" rx="4" fill="#003444"/>
+  <rect x="36" y="100" width="200" height="10" rx="5" fill="#18281f"/>
+  <rect x="36" y="118" width="160" height="10" rx="5" fill="#5f7669"/>
+  <circle cx="50" cy="152" r="8" fill="#00997b"/>
+  <text x="24" y="200" font-family="sans-serif" font-size="13" fill="#5f7669">accent #00997b · code #003444 · ink #18281f</text>
+  <rect x="336" width="304" height="220" rx="0" fill="#141d18"/>
+  <text x="360" y="44" font-family="sans-serif" font-size="22" font-weight="bold" fill="#dcefe6">Forest Night — Dark</text>
+  <rect x="360" y="60" width="256" height="120" rx="10" fill="#1c2720" stroke="#ffffff1f"/>
+  <rect x="372" y="76" width="120" height="16" rx="4" fill="#0b1712" stroke="#ffffff1f"/>
+  <rect x="372" y="100" width="200" height="10" rx="5" fill="#ddeae3"/>
+  <rect x="372" y="118" width="160" height="10" rx="5" fill="#81958a"/>
+  <circle cx="386" cy="152" r="8" fill="#3ecf8e"/>
+  <text x="360" y="200" font-family="sans-serif" font-size="13" fill="#81958a">accent #3ecf8e · code #0b1712 · ink #ddeae3</text>
+</svg>
