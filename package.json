@@ -1,0 +1,55 @@
+{
+  "name": "dsh-skin-typora-forest",
+  "description": "Typora Forest theme skin for the DeepSeek Harness web GUI: forest-green light and dark palettes registered into the official theme system, plus selectable fonts (Source Han Sans + JetBrains Mono, serif, mono).",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QSyingSQ/dsh-skin-typora-forest.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "typora",
+    "forest",
+    "theme",
+    "skin",
+    "dsh-plugin"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes"
+      ]
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
