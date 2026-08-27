@@ -1,12 +1,12 @@
 {
-  "name": "dsh-skin-typora-forest",
-  "description": "Typora Forest theme skin for the DeepSeek Harness web GUI: forest-green light and dark palettes registered into the official theme system, plus selectable fonts (Source Han Sans + JetBrains Mono, serif, mono).",
+  "name": "dsh-forest",
+  "description": "Forest theme skin for the DeepSeek Harness web GUI, ported from the Typora Forest theme: forest-green light and dark palettes registered into the official theme system, plus selectable fonts (Source Han Sans + JetBrains Mono, serif, mono).",
   "version": "0.1.0",
   "type": "module",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QSyingSQ/dsh-skin-typora-forest.git"
+    "url": "git+https://github.com/QSyingSQ/dsh-forest.git"
   },
   "keywords": [
     "dsh",
